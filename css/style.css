@@ -3,5 +3,85 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
+/* DEBUG */
+
+/* .debug header{
+    background-color: #FF6900;
+    height: 50px;
+} */
+
+/* 
+.debug .header-row{
+    background-color: aquamarine;
+    height: 50px;
+} */
+
+/* .debug .header-col-small{
+    width: 25%;
+    height: 50px;
+    background-color: grey
+} */
+
+/* .debug .header-col-big{
+    width: 50%;
+    height: 50px;
+    background-color: blueviolet;
+} */
+
+/* COMMON */
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+/* HEADER */
+
+header{
+    background-color: #FF6900;
+}
+
+.header-row{
+    display: flex;
+}
+
+.header-col-small-right{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 25%;
+}
+
+.header-col-small-left{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 25%;
+}
+
+.header-col-big{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.header-link{
+    padding-right: 10px;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.logo{
+    width: 25%;
+    margin-left: 35%;
+    padding: 10px;
+}
+
+.header-icon{
+    padding-left: 10px;
+}
