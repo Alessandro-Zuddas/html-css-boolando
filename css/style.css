@@ -43,6 +43,19 @@
     width: 100%;
 }
 
+.shop-image-hidden{
+    display: none;
+    width: 100%;
+}
+
+.box:hover img{
+    display: none;
+}
+
+.box:hover .shop-image-hidden{
+    display: block;
+}
+
 .brand-name{
     font-style: normal;
     font-size: 12px;
@@ -101,10 +114,21 @@
     cursor: pointer;
 }
 
+.wishlist:hover{
+    color: red;
+    transform: scale(1.1);
+}
+
 /* HEADER */
 
 header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 100;
     background-color: #FF6900;
+    box-shadow: 0 4px 2px -2px gray;
 }
 
 .header-row{
@@ -164,8 +188,13 @@ header{
     position: relative;
 }
 
+.section1{
+    padding-top: 30px;
+}
+
 .section2{
     margin-top: -20px;
+    padding-bottom: 25px;
 }
 
 /* FOOTER */
