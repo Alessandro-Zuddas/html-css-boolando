@@ -170,4 +170,33 @@ header{
 
 /* FOOTER */
 
+footer{
+    background-color: black; 
+    margin-top: 15px; 
+    padding-bottom: 15px;
+}
 
+.row-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-name{
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.infos{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    padding-right: 5px;
+}
+
+.footer-icons{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    padding-right: 5px;
+}
