@@ -45,6 +45,7 @@
 
 .brand-name{
     font-style: normal;
+    font-size: 12px;
 }
 
 .article{
@@ -73,7 +74,17 @@
 .eco-friendly{
     position: absolute;
     bottom: 20%;
-    left: 12%;
+    left: 11%;
+    font-size: 12px;
+    padding: 3px 3px;
+    background-color: green;
+    color: white;
+}
+
+.eco-friendly-variant{
+    position: absolute;
+    bottom: 20%;
+    left: 0%;
     font-size: 12px;
     padding: 3px 3px;
     background-color: green;
@@ -130,7 +141,7 @@ header{
 
 .logo{
     width: 25%;
-    margin-left: 35%;
+    margin-left: 38%;
     padding: 10px;
     cursor: pointer;
 }
@@ -152,4 +163,11 @@ header{
     width: 32%;
     position: relative;
 }
+
+.section2{
+    margin-top: -20px;
+}
+
+/* FOOTER */
+
 
