@@ -34,8 +34,60 @@
 /* COMMON */
 
 .container{
-    width: 1200px;
+    width: 1000px;
     margin: auto;
+}
+
+.shop-image{
+    display: block;
+    width: 100%;
+}
+
+.brand-name{
+    font-style: normal;
+}
+
+.article{
+    font-size: 14px;
+}
+
+.special-price{
+    display: inline;
+    color: red;
+}
+
+.normal-price{
+    display: inline;
+    text-decoration: line-through;
+}
+
+.sale-amount{
+    position: absolute;
+    font-size: 12px;
+    background-color: red;
+    bottom: 20%;
+    padding: 3px 3px;
+    color: white;
+}
+
+.eco-friendly{
+    position: absolute;
+    bottom: 20%;
+    left: 12%;
+    font-size: 12px;
+    padding: 3px 3px;
+    background-color: green;
+    color: white;
+}
+
+.wishlist{
+    position: absolute;
+    top: 5%;
+    right: 0%;
+    padding:0 5px;
+    font-size: 25px;
+    background-color: white;
+    cursor: pointer;
 }
 
 /* HEADER */
@@ -80,8 +132,24 @@ header{
     width: 25%;
     margin-left: 35%;
     padding: 10px;
+    cursor: pointer;
 }
 
 .header-icon{
     padding-left: 10px;
+    cursor: pointer;
 }
+
+/* MAIN */
+
+.row-main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.col-main{
+    width: 32%;
+    position: relative;
+}
+
