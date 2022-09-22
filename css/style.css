@@ -41,11 +41,13 @@
 .shop-image{
     display: block;
     width: 100%;
+    cursor: pointer;
 }
 
 .shop-image-hidden{
     display: none;
     width: 100%;
+    cursor: pointer;
 }
 
 .box:hover img{
